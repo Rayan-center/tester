@@ -1,4 +1,4 @@
-* {
+﻿* {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -258,7 +258,7 @@ padding: 100px 0;
 
 .sub-header {
     overflow-x: hidden;
-    height: 50vh;
+    height: 55vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://thehill.com/wp-content/uploads/sites/2/2022/03/ca_grad_diploma.jpg?strip=1);
     background-position: center;
@@ -394,13 +394,10 @@ padding: 100px 0;
         box-sizing: border-box;
     }
 /*---------card-------*/
-* {
-    box-sizing: border-box;
-}
 .card {
     margin: 100px auto;
-    background-color: #cb56c940;
-    border-radius: 50px;
+    background-color: #f1cb186c;
+    border-radius: 10px;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     width: 400px;
@@ -409,8 +406,8 @@ padding: 100px 0;
 
 .card-header img {
     width: 100%;
-    height: 350px;
-    object-fit: cover;
+    height: 400px;
+    object-fit: contain;
 }
 
 .card-body {
